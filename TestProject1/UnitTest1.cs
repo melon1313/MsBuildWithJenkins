@@ -15,6 +15,7 @@ namespace TestProject1
         {
             using (var sw = new StringWriter())
             {
+                //test
                 Console.SetOut(sw);
                 Program.Main();
 
