@@ -15,9 +15,11 @@ namespace TestProject1
         {
             using (var sw = new StringWriter())
             {
-                //test3
+                //changes with error
                 Console.SetOut(sw);
                 Program.Main();
+
+                10/5
 
                 var result = sw.ToString().Trim();
                 Assert.AreEqual(expected, result);
