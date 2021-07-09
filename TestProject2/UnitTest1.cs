@@ -36,5 +36,10 @@ namespace TestProject2
         {
             Assert.True(true);
         }
+        [Test]
+        public void Test6()
+        {
+            Assert.Fail();
+        }
     }
 }
