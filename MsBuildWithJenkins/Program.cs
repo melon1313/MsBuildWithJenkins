@@ -10,6 +10,7 @@ namespace MsBuildWithJenkins
     {
         public static void Main()
         {
+            //test2
             Console.WriteLine("Hello Alice!");
         }
     }
