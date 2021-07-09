@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuildWithJenkins", "MsBuildWithJenkins\MsBuildWithJenkins.csproj", "{E407A9E1-31D9-447A-AE31-2986BC768B5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C0430FD2-2AA2-4859-BD13-D6D97BE732DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C0430FD2-2AA2-4859-BD13-D6D97BE732DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject2", "TestProject2\TestProject2.csproj", "{A8E9B4EA-0750-4DA9-926E-27107199EB1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C0430FD2-2AA2-4859-BD13-D6D97BE732DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0430FD2-2AA2-4859-BD13-D6D97BE732DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0430FD2-2AA2-4859-BD13-D6D97BE732DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E9B4EA-0750-4DA9-926E-27107199EB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E9B4EA-0750-4DA9-926E-27107199EB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E9B4EA-0750-4DA9-926E-27107199EB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E9B4EA-0750-4DA9-926E-27107199EB1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
