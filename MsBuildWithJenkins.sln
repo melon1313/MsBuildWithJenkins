@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuildWithJenkins", "MsBui
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C0430FD2-2AA2-4859-BD13-D6D97BE732DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject2", "TestProject2\TestProject2.csproj", "{A8E9B4EA-0750-4DA9-926E-27107199EB1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject2", "TestProject2\TestProject2.csproj", "{A8E9B4EA-0750-4DA9-926E-27107199EB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{3F2EFF11-2014-44F6-B335-3AC16D50B5DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A8E9B4EA-0750-4DA9-926E-27107199EB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8E9B4EA-0750-4DA9-926E-27107199EB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8E9B4EA-0750-4DA9-926E-27107199EB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2EFF11-2014-44F6-B335-3AC16D50B5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2EFF11-2014-44F6-B335-3AC16D50B5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2EFF11-2014-44F6-B335-3AC16D50B5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2EFF11-2014-44F6-B335-3AC16D50B5DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
